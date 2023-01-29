@@ -1,0 +1,58 @@
+|:NvimTreeOpen|
+
+    opens the tree. Takes an optional path argument.
+
+|:NvimTreeClose|
+
+    closes the tree
+
+|:NvimTreeToggle|
+
+    open or close the tree. Takes an optional path argument.
+
+|:NvimTreeFocus|
+
+    open the tree if it is closed, and then focus on the tree
+
+|:NvimTreeRefresh|
+
+    refresh the tree
+
+|:NvimTreeFindFile|
+
+    The command will change the cursor in the tree for the current bufname.
+
+    It will also open the leafs of the tree leading to the file in the buffer
+    (if you opened a file with something else than the NvimTree, like `fzf` or
+    `:split`)
+
+    Invoke with a bang `:NvimTreeFindFile!` to update the root.
+
+|:NvimTreeFindFileToggle|
+
+    close the tree or change the cursor in the tree for the current bufname,
+    similar to combination of |:NvimTreeToggle| and |:NvimTreeFindFile|. Takes an
+    optional path argument.
+
+    Invoke with a bang `:NvimTreeFindFileToggle!` to update the root.
+
+|:NvimTreeClipboard|
+
+    Print clipboard content for both cut and copy
+
+|:NvimTreeResize|
+
+    Resize the NvimTree window to the given size. Example: `:NvimTreeResize 50`
+    resizes the window to the width of 50. If the size starts with "+" or "-" it
+    adds or removes the given value to the current window width.
+    Example `:NvimTreeResize -20` removes the value 20 from the current width. And
+    `:NvimTreeResize +20` adds the value 20 to the current width.
+
+|:NvimTreeCollapse|
+
+    Collapses the nvim-tree recursively.
+
+|:NvimTreeCollapseKeepBuffers|
+
+    Collapses the nvim-tree recursively, but keep the directories open, which are
+    used in an open buffer.
