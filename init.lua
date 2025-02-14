@@ -1,4 +1,4 @@
-require("config.lazy")
+require("config")
 require("config.option")
+require("config.keymap")
 require("plugins.theme")
-require("plugins.lualine")

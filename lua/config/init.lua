@@ -17,6 +17,7 @@ vim.opt.rtp:prepend(lazypath)
 
 
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 
 -- Here it will load the plugins from plugins folder with in 
